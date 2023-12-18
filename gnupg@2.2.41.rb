@@ -1,4 +1,4 @@
-class GnupgAT22 < Formula
+class GnupgAT2241 < Formula
   desc "GNU Pretty Good Privacy (PGP) package"
   homepage "https://gnupg.org/"
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.41.tar.bz2"
