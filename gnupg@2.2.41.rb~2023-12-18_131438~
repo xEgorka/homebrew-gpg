@@ -38,6 +38,7 @@ depends_on "pkg-config" => :build
                           "--enable-symcryptrun",
                           "--with-pinentry-pgm=#{Formula["pinentry"].opt_bin}/pinentry"
     system "make"
+    system "make", "check"
     system "make", "install"
   end
 
